@@ -37,14 +37,14 @@ class _ProductListScreenState extends State<ProductListScreen> {
     //var badges;
     return Scaffold(
       appBar: AppBar(
-        title: (Text('Product List')),
+        title: (const Text('Product Shopping cart List')),
         centerTitle: true,
-        actions: [
+        actions: const [
           // badges.Badge(
           //   badgeContent: Text('1'),
           //position: badges.BadgePosition.topEnd(top: -10, end: -12)
           //  ),
-           Icon(Icons.shopping_bag_outlined),
+          Icon(Icons.shopping_bag_outlined),
           SizedBox(
             width: 20,
           )
